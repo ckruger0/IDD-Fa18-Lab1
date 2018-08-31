@@ -12,17 +12,20 @@
 **a. What color stripes are on a 100 Ohm resistor?**
  
 **b. What do you have to do to light your LED?**
-Have to hold down the switch to turn the LED light on. 
+Have to hold down the switch to turn the LED on. 
 
 ## Part C. Blink a LED using Arduino
 
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+The "digitalWrite()" function is used to change the voltage level of the LED, setting it to "HIGH" turns it on.
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+A combination of "digitalWrite()" and "delay()" are used to control the rate of blinking. First, setting digitalWrite() to "LOW" turned the LED off, and delay() can be populated with time in ms to control how long the LED is in the digitalWrite() state for. Finally you can use digitalWrite() to set it back to HIGH to get the LED back on.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+You need to add a resistor to protext the LED and board.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
