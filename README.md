@@ -12,7 +12,7 @@
 **a. What color stripes are on a 100 Ohm resistor?**
  
 **b. What do you have to do to light your LED?**
-
+Have to hold down the switch to turn the LED light on. 
 
 ## Part C. Blink a LED using Arduino
 
