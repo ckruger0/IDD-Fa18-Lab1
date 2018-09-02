@@ -72,12 +72,12 @@ It does not appear as though information is stored onboard the wireless mouse.
  
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-My original plan was to have the wireless mouse be 100% under its own power supplied from the AA battery, however despite all my arrangements it did not seem to work. I ended up attaching the 5V and ground wires from my microcontroller to complete the powered circuit. As an initial gut check I simply fitted an LED to the positive and negative terminals originally provisioned for the battery, and the LED lit as expected.
+My original plan was to have the wireless mouse be 100% under its own power supplied from the AA battery, however despite all my arrangements it did not seem to work. I ended up attaching the 5V and ground wires from my microcontroller to complete the powered circuit. As an initial gut check I simply fitted an LED to the positive and negative terminals originally provisioned for the battery, and the LED lit as expected. See below:
+
+<img src="https://i.imgur.com/7f7QmTX.jpg">
 
 I then looked deeper into the schematic of the wireless mouse and realized there was an opportunity to attach the LED to the exposed wire originally used to connect the optical LED used to track movement. 
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
+<a href="https://youtu.be/KjgJuvxJ9EA">https://youtu.be/KjgJuvxJ9EA</a>
