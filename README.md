@@ -9,25 +9,27 @@
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 100 Ohm resistor?**<BR>
+A 100 Ohm resistor has brown (band + multiplier), black (band), and yellow (tolerance) stripes.<BR>
+The 220 Ohm resistor supplied for this lab has red (bands), brown (multiplier), and yellow (tolerance) stripes.
  
-**b. What do you have to do to light your LED?**
+**b. What do you have to do to light your LED?**<BR>
 Have to hold down the switch to turn the LED on. 
 
 ## Part C. Blink a LED using Arduino
 
 ### 1. Blink the on-board LED
 
-**a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+**a. What line(s) of code do you need to change to make the LED blink (like, at all)?**<BR>
 The "digitalWrite()" function is used to change the voltage level of the LED, setting it to "HIGH" turns it on.
 
-**b. What line(s) of code do you need to change to change the rate of blinking?**
+**b. What line(s) of code do you need to change to change the rate of blinking?**<BR>
 A combination of "digitalWrite()" and "delay()" are used to control the rate of blinking. First, setting digitalWrite() to "LOW" turned the LED off, and delay() can be populated with time in ms to control how long the LED is in the digitalWrite() state for. Finally you can use digitalWrite() to set it back to HIGH to get the LED back on.
 
-**c. What circuit element would you want to add to protect the board and external LED?**
+**c. What circuit element would you want to add to protect the board and external LED?**<BR>
 You need to add a resistor to protext the LED and board.
  
-**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+**d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**<BR>
 
 
 ### 2. Blink your LED
