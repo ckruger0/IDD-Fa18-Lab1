@@ -80,7 +80,7 @@ As an initial gut check I simply fitted an LED to the positive and negative term
 
 ### 3. Build your light!
 
-I then looked deeper into the schematic of the wireless mouse and realized there was an opportunity to attach the LED to the exposed wire originally used to connect the optical LED used to track movement. A video of it in action can be seen below:
+I then looked deeper into the schematic of the wireless mouse and realized there was an opportunity to attach the LED to the exposed wire originally used to connect the optical LED used to track movement. A video of it in action can be seen below (apologies in advance for the crime of vertical video):
 
 <a href="https://youtu.be/KjgJuvxJ9EA">https://youtu.be/KjgJuvxJ9EA</a>
 
