@@ -30,6 +30,8 @@ You need to add a resistor to protect the LED and board.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**<BR>
 I was able to perceive the LED blinking all the way down to a 2ms delay, inclusive. Once it got to 1ms it appeared solid. It would probably be possible to determine that it's still blinking by using a slow motion camera, or just having faith in the same line of that can properly execute a blink at 2ms can also do it at 1ms. 
+ 
+**e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
 
 ### 2. Blink your LED
