@@ -4,8 +4,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
-
+<img src="https://i.imgur.com/RUfRL8b.jpg">
 
 ## Part B. Manually Blink a LED
 
@@ -21,34 +20,35 @@ Have to hold down the switch to turn the LED on.
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**<BR>
-The "digitalWrite()" function is used to change the voltage level of the LED, setting it to "HIGH" turns it on.
+The "digitalWrite()" function is used to change the voltage level of the LED, setting it to "HIGH" turns it on. As supplied though, nothing needs be changed in the sample "Blink" code.
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**<BR>
 A combination of "digitalWrite()" and "delay()" are used to control the rate of blinking. First, setting digitalWrite() to "LOW" turned the LED off, and delay() can be populated with time in ms to control how long the LED is in the digitalWrite() state for. Finally you can use digitalWrite() to set it back to HIGH to get the LED back on.
 
 **c. What circuit element would you want to add to protect the board and external LED?**<BR>
-You need to add a resistor to protext the LED and board.
+You need to add a resistor to protect the LED and board.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**<BR>
 
 
 ### 2. Blink your LED
 
-**Make a video of your LED blinking, and add it to your lab submission.**
+**Make a video of your LED blinking, and add it to your lab submission.**<BR>
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+<a href="https://youtu.be/Qhy_E0TosvQ">https://youtu.be/Qhy_E0TosvQ</a>
 
 
 ## Part D. Manually fade an LED
 
-**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+**a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**<BR>
 
 
 ## Part E. Fade an LED using Arduino
 
-**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+**a. What do you have to modify to make the code control the circuit you've built on your breadboard?**<BR>
 
-**b. What is analogWrite()? How is that different than digitalWrite()?**
+**b. What is analogWrite()? How is that different than digitalWrite()?**<BR>
+ analogWrite() writes an oscillating value to a pin between 0 and 255 to vary the brightness of an LED. This is different than the "all or nothing" approach seen in digitalWrite() where it's more of a binary "HIGH" for full brightness or "LOW" for no brightness. <a href="https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/">src</a>
 
 
 ## Part F. FRANKENLIGHT!!!
