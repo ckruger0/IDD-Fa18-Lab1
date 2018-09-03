@@ -62,6 +62,12 @@ It seems like the most common thing I've had to change in the examples to contro
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+There were quite a few components on my electronic device that were not immediately obvious to me. There were a few small rectangular blocks labeled with a "R-" prefix that I assumed to be resistors since the ones we worked with in class were not used. There was also quite a few components related to the optics of the mouse that were beyond my knowledge. My best idea of what the schematic entails can be seen here, with the top and bottom views of the mouse underneath:
+
+<img src="https://i.imgur.com/2zChXP7.jpg">
+<img src="https://i.imgur.com/JqWlBOu.jpg">
+<img src="https://i.imgur.com/FE9Tv29.jpg">
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**<BR>
 There is likely computation on the device that converts manual inputs of mouse movement into vectors for the computer to read. From my understanding of optical mice this is calculated by computing changes between a reflected light and how they hit a photocell. 
  
