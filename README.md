@@ -35,6 +35,7 @@ I was able to perceive the LED blinking all the way down to a 2ms delay, inclusi
 
 <a href="https://github.com/ckruger0/IDD-Fa18-Lab1/blob/master/arduino/Blink_182/Blink_182.ino">Modified Code</a>
 
+The code was modified to hold the light for the durations of 1000ms, then 800ms, and then 200ms. This code is in reference to the popular punk(-ish) band from CA called Blink-182.
 
 ### 2. Blink your LED
 
@@ -46,7 +47,7 @@ I was able to perceive the LED blinking all the way down to a 2ms delay, inclusi
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**<BR>
-
+Yes. The potentiometer works as a variable resistor, with the knob manually controlling a wiper in the device that controls the strength of resistance. (<a href="https://en.wikipedia.org/wiki/Potentiometer">src</a>) At its lowest setting the potentiometer is providing the full 5V current through to the LED, all the way to the highest resistance level that makes the LED dim to nothing.
 
 ## Part E. Fade an LED using Arduino
 
