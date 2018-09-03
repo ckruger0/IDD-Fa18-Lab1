@@ -62,14 +62,14 @@ It seems like the most common thing I've had to change in the examples to contro
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**<BR>
-There is likely computation on the device that converts manual inputs into vectors for the computer to read. I think that there is likely an X-Y coordinate system that is constantly feeding from the optical sensor to the attached computer.
-
+There is likely computation on the device that converts manual inputs of mouse movement into vectors for the computer to read. From my understanding of optical mice this is calculated by computing changes between a reflected light and how they hit a photocell. 
+ 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**<BR>
 Yes. Most evident are the 2 push button sensors (SW1 SW2) and the optical sensor used to track mouse movement. The push buttons are straightforward in that they have plastic switches than can be depressed. The optical sensor I imagine uses an XY coordinate system.<BR><BR>
 The interesting sensor to me appeared in how the scroll wheel functionality works. It appears there is a small optical sensor of some kind on either side of the rubber wheel, and it calculates scrolling by counting what appears to be a slotted interior on the wheel. 
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**<BR>
-The device is typically powered with a single AA battery. 
+The device is typically powered with a single AA battery. I believe there MAY be some kind of transformation of power - one of the first stops along the circuit starting from the current is a post with copper wire wrapped around it. I looked online and was unable to find conclusive evidence this was power related vs an electromagnet (for some reason?). Going off the input of a AA battery, a 1.5V nominal voltage is used throughout the system. 
 
 **d. Is information stored in your device? Where? How?**<BR>
 It does not appear as though information is stored onboard the wireless mouse. 
