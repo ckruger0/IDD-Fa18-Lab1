@@ -10,7 +10,7 @@
 
 **a. What color stripes are on a 100 Ohm resistor?**<BR>
 A 100 Ohm resistor has brown (band + multiplier), black (band), and yellow (tolerance) stripes.<BR>
-The 220 Ohm resistor supplied for this lab has red (bands), brown (multiplier), and yellow (tolerance) stripes.
+The 220 Ohm resistor supplied for this lab has red, black, and red stripes.
  
 **b. What do you have to do to light your LED?**<BR>
 Have to hold down the switch to turn the LED on. 
