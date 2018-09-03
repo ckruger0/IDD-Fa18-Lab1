@@ -67,7 +67,8 @@ There is likely computation on the device that converts manual inputs of mouse m
  
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**<BR>
 Yes. Most evident are the 2 push button sensors (SW1 SW2) and the optical sensor used to track mouse movement. The push buttons are straightforward in that they have plastic switches than can be depressed. The optical sensor I imagine uses an XY coordinate system.<BR><BR>
-The interesting sensor to me appeared in how the scroll wheel functionality works. It appears there is a small optical sensor of some kind on either side of the rubber wheel, and it calculates scrolling by counting what appears to be a slotted interior on the wheel. 
+The interesting sensor to me appeared in how the scroll wheel functionality works. It appears there is a small optical sensor of some kind on either side of the rubber wheel, and it calculates scrolling by counting what appears to be a slotted interior on the wheel. <BR><BR>
+It appears as though sensor information collected from the device travels along the circuit and terminates at a Nordic NRF 31512C transceiver.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**<BR>
 The device is typically powered with a single AA battery. I believe there MAY be some kind of transformation of power - one of the first stops along the circuit starting from the current is a post with copper wire wrapped around it. I looked online and was unable to find conclusive evidence this was power related vs an electromagnet (for some reason?). Going off the input of a AA battery, a 1.5V nominal voltage is used throughout the system. 
